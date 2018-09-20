@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Pense-bête d'apprentissage profond
+&#10230; Pense-bête d'apprentissage profond (Deep Learning)
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Rétropropagation du gradient ― La rétropropagation du gradient (en anglais *backpropagation*) est une méthode destinée à mettre à jour les coefficients d'un réseau de neurones en comparant la sortie obtenue et la sortie désirée. La dérivée par rapport au coefficient w est calculée à l'aide du théorème de dérivation des fonctions composées, et s'écrit de la manière suivante :
+&#10230; Rétropropagation ― La rétropropagation du gradient (en anglais *backpropagation*) est une méthode destinée à mettre à jour les coefficients d'un réseau de neurones en comparant la sortie obtenue et la sortie désirée. La dérivée par rapport au coefficient w est calculée à l'aide du théorème de dérivation des fonctions composées, et s'écrit de la manière suivante :
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p
+&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement aux données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p
 
 <br>
 
@@ -120,13 +120,13 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Pré-requis de la couche convolutionelle ― Si l'on note W la taille du volume d'entrée, F la taille de la couche de neurones convolutionelle, P la quantité de zero padding, alors le nombre de neurones N qui tient dans un volume donné est tel que :
+&#10230; Pré-requis de la couche convolutionelle ― Si l'on note W la taille du volume d'entrée, F la taille de la couche de neurones convolutionelle, P la quantité de remplissage de zéro (* zero padding*), alors le nombre de neurones N qui tient dans un volume donné est tel que :
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalisation de batch ― C'est une étape possédant les paramètres γ,β qui normalise le batch {xi}. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger au batch, ceci est fait de la manière suivante :
+&#10230; Normalisation de batch ― C'est une étape avec comme hyperparamètres γ,β qui normalise le batch {xi}. En notant μB,σ2B l'espérance et la variance de ce que l'on veut corriger au batch, ceci est fait de la manière suivante :
 
 <br>
 
@@ -156,19 +156,19 @@
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230; [Écrire dans la cellule ou non ?, Supprimer la cellule ou non ? Combien écrire à la cellule ? A quel point révéler la cellule ?]
+&#10230; [Écrire dans la cellule ou non ?, Effacer la cellule ou non ? Combien écrire à la cellule ? A quel point révéler la cellule ?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM ― Un réseau de long court terme (en anglais *long sort-term memory*, *LSTM*) est un type de modèle RNN qui empêche le phénomène de *vanishing gradient* en ajoutant des portes d'oubli.
+&#10230; LSTM ― Un réseau de mémoire long court terme (en anglais *long short-term memory*, *LSTM*) est un type de modèle RNN qui empêche le phénomène de gradient disparaissant (*vanishing gradient*) en ajoutant des portes d'oubli.
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230; Reinforcement Learning et Control
+&#10230; Apprentissage de Renforcement (Reinforcement Learning) et Contrôle
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; Politique ― Une politique π est une fonction π:S⟶A qui lie les états aux actions.
+&#10230; Politique ― Une politique π est une fonction π:S⟶A qui lie les états à des actions.
 
 <br>
 
@@ -276,13 +276,13 @@
 
 **47. times took action a in state s and got to s′**
 
-&#10230; nombre de fois où l'action a dans l'état s est prise pour arriver à l'état s'
+&#10230; nombre de fois où l'action a est prise en l'état s et a obtenu l'état s'
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230; nombre de fois où l'action a dans l'état s est prise
+&#10230; nombre de fois où l'action a est prise dans l'état s
 
 <br>
 
